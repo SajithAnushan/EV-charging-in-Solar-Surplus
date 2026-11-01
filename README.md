@@ -45,22 +45,10 @@ pip install pandas numpy matplotlib scipy pvlib openpyxl requests
 - Creates: `National_Mean_15min_MW.xlsx`
 - Check: the two annual energy figures it prints are the same
 
----
-
-## Part B. Recorded data (needs internet)
-
-**Step 5. Recorded solar generation**
-- First open `fetch_solar_pv.py` and set `END` to the last date you need.
-- Run: `python fetch_solar_pv.py`
-- Creates: `solar_pv_2026-03-26_to_2026-09-24.xlsx`. If it stops, run it again and it carries on from where it stopped.
-
-**Step 6. Recorded battery (BESS) data**
-- Run: `python fetch_bess.py`
-- Creates: `bess_2026-09-09_to_2026-09-24.xlsx`
 
 ---
 
-## Part C. Surplus
+## Part B. Surplus
 
 **Step 7. Excess = potential minus generation**
 - Run: `python solar_excess.py`
@@ -76,7 +64,7 @@ pip install pandas numpy matplotlib scipy pvlib openpyxl requests
 
 ---
 
-## Part D. Survey
+## Part C. Survey
 
 **Step 9. Survey to CSV**
 - Run: `python build_survey_csv.py`
@@ -87,7 +75,7 @@ pip install pandas numpy matplotlib scipy pvlib openpyxl requests
 
 ---
 
-## Part E. The model
+## Part D. The model
 
 Before running, confirm that the `data` folder contains `solar_surplus.csv`, `survey_responses.csv` and `tariff.csv`.
 
