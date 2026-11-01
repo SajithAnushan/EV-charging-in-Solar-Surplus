@@ -1,0 +1,13 @@
+Period,Start,End,Domestic Rate,EV Charging Station Rate,Suggested Surplus Rate
+Off Peak,22:30,5:30,54,53,53
+Day Section 1,5:30,9:00,54,87,87
+Solar Surplus,9:00,15:00,54,87,30
+Day Section 2,15:00,18:30,54,87,87
+Peak,18:30,22:30,54,111,111
+,,,,,
+Fuel,Unit Cost,,,,
+Coal,19,,,,
+Furnace Oil,54.1,,,,
+Diesel,125.7,,,,
+Average fuel,66.26666667,,,,
+Solar,28.7,,,,
